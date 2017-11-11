@@ -15,8 +15,8 @@ description: 文章金句。
 在线性回归问题中，最简单的线性模型为：
 $$y(\mathbf{x},\mathbf{w})=\mathbf{w}^\mathrm{T}\mathbf{x}=w_0+w_1x_1+\cdots+w_Dx_D$$
 
-其中 $\mathbf{x}$为输入数据，$\mathbf{w}$为所求线性模型参数。
-将上述模型进行扩展，$\mathbf{x}$可由多个$\mathbf{x}$的函数取代：
+其中 $$\mathbf{x}$$为输入数据，$$\mathbf{w}$$为所求线性模型参数。
+将上述模型进行扩展，$\mathbf{x}$可由多个$$\mathbf{x}$$的函数取代：
 $$
 y(\mathbf{x},\mathbf{w}) = \mathbf{w}^\mathrm{T}\phi(\mathbf{x})= w_0+\sum_{j=1}^{M-1}w_j \phi_j(\mathbf{x})
 $$
